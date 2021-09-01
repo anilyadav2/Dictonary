@@ -34,8 +34,9 @@ sampleDict = {
 }
 
 
+sampleDict['emp3']['salary']=8500
 
-
+print(sampleDict)
 
 
 # 4 )Given the dictionary below, add a new key - 'work' with the values shown below:
@@ -43,4 +44,7 @@ sampleDict = {
 
 dict={"name": "Plato", "country": "Ancient Greece", "born": -427, "teacher": "Socrates", "student": "Aristotle"}
 
+dict["work"]=["Apology", "Phaedo", "Republic", "Symposium"]
+
+print(dict)
 
