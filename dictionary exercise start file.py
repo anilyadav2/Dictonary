@@ -61,13 +61,14 @@ def deal_cards(deck, number):
     list1=list(deck)
 
     random.shuffle(list1)
-
+    value=0
     
     dict={}
     for i in range(number):
         dict[list1[i]]=deck[list1[i]]
+        value += deck[list1[i]]
 
-    return(dict)
+    return(dict,value)
      
 
     # Initialize an accumulator for the hand value.
