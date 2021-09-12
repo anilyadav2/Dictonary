@@ -1,1 +1,12 @@
 # Dictonary
+Room={'CS101':'3004','CS102':'4501','CS103':'6755','NT110':'1244','CM241':'1411'}
+
+Instructors={'CS101':'Haynes','CS102':'Alvarado','CS103':'Rich','NT110':'Bruke','CM241':'Lee'}
+
+
+Timing={'CS101':'8:00 a.m.','CS102':'9:00 a.m.','CS103':'10:00 a.m.','NT110':'11:00 a.m.','CM241':'1:00 p.m.'}
+
+
+Course_name = str(input('How many cards should I deal? '))
+
+print("course"+" : "+Course_name + '\n'+"Room"+" : "+Room[Course_name] + '\n'+"Instructor"+" : "+Instructors[Course_name] + '\n'+"Timing"+" : "+Timing[Course_name])
